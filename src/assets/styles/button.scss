@@ -1,0 +1,62 @@
+.mat-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button {
+  border-radius: 14px !important;
+}
+
+.btn-light {
+  box-shadow: none !important;
+}
+
+.my-button-toggle-group {
+
+  .mat-button-toggle-appearance-standard {
+    background: transparent !important;
+    border-radius: 14px !important;
+    transition: background .3s;
+  }
+
+  .mat-button-toggle-button {
+    border-radius: 14px !important;
+  }
+
+  .mat-button-toggle .mat-button-toggle-ripple {
+    border-radius: 14px !important;
+    display: none;
+  }
+
+  .mat-button-toggle-appearance-standard .mat-button-toggle-label-content {
+    padding: 0 16px !important;
+    line-height: 36px !important;
+    color: rgba(0, 0, 0, .46);
+  }
+
+  .mat-button-toggle-checked {
+    background: #8ceaed !important;
+  }
+
+  .mat-button-toggle-appearance-standard.mat-button-toggle-checked .mat-button-toggle-label-content {
+    color: #fff !important;
+  }
+
+  .mat-button-toggle-standalone.mat-button-toggle-appearance-standard, &.mat-button-toggle-group-appearance-standard {
+    /*border: solid 3px transparent !important;*/
+    border: none !important;
+    border-radius: 14px !important;
+    background: #ECEDEF;
+    height: 36px !important;
+  }
+
+  .mat-button-toggle-appearance-standard .mat-button-toggle-focus-overlay {
+    opacity: 0 !important;
+  }
+
+  &.mat-button-toggle-appearance-standard:not(.mat-button-toggle-disabled):hover .mat-button-toggle-focus-overlay {
+  }
+
+  .mat-button-toggle-appearance-standard {
+    border: none !important;
+  }
+
+  &.mat-button-toggle-group-appearance-standard .mat-button-toggle + .mat-button-toggle {
+    /*margin-left: 3px;*/
+  }
+}

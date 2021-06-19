@@ -1,0 +1,81 @@
+
+.my-form-field-light {
+
+  .mat-form-field-flex {
+    background: #ECEDEF;
+  }
+}
+
+.my-select-field {
+
+  .mat-form-field-flex {
+    height: 42px !important;
+    border-radius: 14px !important;
+    align-items: stretch !important;
+  }
+
+  .mat-form-field-underline {
+    display: none !important;
+  }
+  
+  .mat-form-field-infix {
+    margin-top: -10px !important;
+  }
+
+  .mat-form-field-label {
+    margin-top: -10px;
+  }
+
+  .mat-select-arrow {
+    margin-top: 14px;
+    color: rgba(0, 0, 0, 0.54) !important;
+  }
+
+  .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+    color: red !important;
+    background: red;
+  }
+}
+
+.my-form-field {
+
+
+  .mat-form-field-infix {
+    border: none !important;
+  }
+
+  .mat-form-field-flex {
+    height: 42px !important;
+    border-radius: 14px !important;
+    align-items: stretch !important;
+  }
+
+  .mat-form-field-underline {
+    display: none !important;
+  }
+
+  .mat-icon {
+    height: 24px !important;
+    font-size: 24px;
+    line-height: 24px !important;
+  }
+
+  .mat-hint {
+    color: #FF3C00;
+  }
+
+  .mat-icon-button {
+    width: 38px !important;
+    height: 38px !important;
+    margin-top: -8px !important;
+    margin-right: -8px !important;
+  }
+
+  .error {
+    color: #ff0000;
+  }
+
+  .mat-input-element {
+    margin-top: -3px !important;
+  }
+}

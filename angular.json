@@ -31,9 +31,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/leaflet/dist/leaflet.css",
+              "src/styles.scss",
+              "src/assets/styles/typography.scss",
+              "src/assets/styles/layout.scss",
+              "src/assets/styles/slide-toggle.scss",
+              "src/assets/styles/button.scss",
+              "src/assets/styles/form-field.scss",
+              "src/assets/styles/tab-group.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/chart.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -1,0 +1,20 @@
+.mat-slide-toggle-bar {
+  height: 20px !important;
+  border-radius: 10px !important;
+  width: 34px !important;
+}
+
+.mat-slide-toggle-thumb-container {
+  margin-top: 3px;
+  margin-left: 0px;
+  /*transform: scale(0.7) !important;*/
+}
+
+.mat-slide-toggle-thumb {
+  box-shadow: none !important;
+  transform: scale(0.8) !important;
+}
+
+.mat-slide-toggle.mat-checked .mat-slide-toggle-thumb-container {
+  transform: translate3d(14px, 0, 0) !important;
+}

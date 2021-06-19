@@ -1,0 +1,61 @@
+
+.my-tab-group {
+
+  .mat-button-toggle-appearance-standard {
+    background: transparent !important;
+    border-radius: 14px !important;
+    transition: background .3s;
+  }
+
+  .mat-button-toggle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -8px;
+    width: 16px;
+    height: 4px;
+    border-radius: 2px;
+    background: transparent;
+    transition: background .3s;
+  }
+
+  .mat-button-toggle-checked::before {
+    background: #8ceaed;
+  }
+
+  .mat-button-toggle-button {
+    border-radius: 14px !important;
+  }
+
+  .mat-button-toggle .mat-button-toggle-ripple {
+    border-radius: 14px !important;
+    display: none;
+  }
+
+  .mat-button-toggle-standalone.mat-button-toggle-appearance-standard, &.mat-button-toggle-group-appearance-standard {
+    border: solid 3px transparent !important;
+    border-radius: 17px !important;
+    background: transparent;
+  }
+
+  .mat-button-toggle-appearance-standard .mat-button-toggle-focus-overlay {
+    opacity: 0 !important;
+  }
+
+  &.mat-button-toggle-appearance-standard:not(.mat-button-toggle-disabled):hover .mat-button-toggle-focus-overlay {
+  }
+
+  .mat-button-toggle-appearance-standard .mat-button-toggle-label-content {
+    padding: 0 24px !important;
+    line-height: 40px !important;
+  }
+
+  .mat-button-toggle-appearance-standard {
+    border: none !important;
+  }
+
+  &.mat-button-toggle-group-appearance-standard .mat-button-toggle + .mat-button-toggle {
+    margin-left: 3px;
+  }
+}

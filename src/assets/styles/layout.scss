@@ -1,0 +1,37 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #1F2138 !important;
+}
+
+.card {
+  margin: 15px 0;
+  border-radius: 16px !important;
+}
+
+.card-body {
+  padding: 24px 32px !important;
+}
+
+.cdk-global-overlay-wrapper {
+  z-index: 9999999 !important;
+}
+
+.cdk-overlay-container {
+  z-index: 9999999 !important;
+}
+
+.app-wrapper {
+  background: #F6F7F9 !important;
+  border-radius: 0 0 24px 24px;
+}
+
+.footer {
+  margin-top: -24px;
+  padding: 64px 24px;
+  color: #ECEDEF;
+}
